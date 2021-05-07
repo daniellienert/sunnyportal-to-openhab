@@ -26,7 +26,7 @@ class SmaDataTransfer
 
     public function __construct()
     {
-        $this->settings = include(__DIR__ . 'settings.php');
+        $this->settings = include(__DIR__ . '/settings.php');
     }
 
     public function updateValuesInOpenHab(): void
