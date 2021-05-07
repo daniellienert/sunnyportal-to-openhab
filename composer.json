@@ -1,0 +1,23 @@
+{
+  "name": "dl/sunnyportal-to-openhab",
+  "description": "Makes the sunny portal data accessible to Openhab",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ry25",
+      "email": "email@example.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/daniellienert/sma.git"
+    }
+  ],
+  "require": {
+    "gunna-php/sma": "dev-improvements",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  }
+}
